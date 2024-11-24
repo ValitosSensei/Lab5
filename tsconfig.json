@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                 // Цільовий стандарт JavaScript
+      "module": "commonjs",            // Використання CommonJS для модулів
+      "strict": true,                  // Увімкнення суворого режиму TypeScript
+      "outDir": "./dist",              // Директорія для збереження зкомпільованих файлів
+      "rootDir": "./src",              // Директорія для вихідних файлів TypeScript
+      "esModuleInterop": true,         // Дозволяє використовувати імпорти ES6
+      "skipLibCheck": true,            // Пропустити перевірку файлів `.d.ts`
+      "forceConsistentCasingInFileNames": true // Стежити за регістром у назвах файлів
+    },
+    "include": ["src/**/*"],           // Включити всі файли у папці src
+    "exclude": ["node_modules", "dist"] // Виключити ці папки
+  }
+  

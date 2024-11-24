@@ -1,0 +1,16 @@
+{
+    "name": "cms-lab",
+    "version": "1.0.0",
+    "description": "Content Management System with TypeScript",
+    "main": "dist/cms.js",
+    "scripts": {
+  "start": "node dist/main.js"
+}
+,
+    "devDependencies": {
+        "typescript": "^5.7.2"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
